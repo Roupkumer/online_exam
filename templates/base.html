@@ -19,7 +19,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd">
-    <img src="{% static 'online_quiz_system/img/ju_logo.png' %}" alt="logo" style="width:40px;">
+    <a href ="{% url 'home' %}"><img src="{% static 'online_quiz_system/img/ju_logo.png' %}" alt="logo" style="width:40px;"></a>
     <a class="navbar-brand" href="{% url 'home' %}" style="color:#000;">&nbsp;<b></b></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
